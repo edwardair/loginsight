@@ -61,9 +61,9 @@ int main(int argc, char *argv[])
 
     app.setWindowIcon(QIcon(":/images/logo.png"));
 
-    QTranslator trans;
-    trans.load(":/qtbase_zh_CN.qm");
-    app.installTranslator(&trans);
+//    QTranslator trans;
+//    trans.load(":/qtbase_zh_CN.qm");
+//    app.installTranslator(&trans);
 
     prepareMyDir();
     NativeHelper native;
