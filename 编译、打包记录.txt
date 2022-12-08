@@ -1,0 +1,13 @@
+ 
+ 1. 打包指令（Windows PowerShell下）：
+ windeployqt.exe .\app.exe --qmldir D:\Qt6.4\5.15.2\mingw81_64\qml --no-patchqt
+
+ 2. 打包完后，会提示缺少一些dll，手动复制即可；
+
+ 3. 缺少其他文件：
+ app_resource.rc
+ core.windows.exe、core.macosx、core.linux
+
+ 将以上文件复制到exe所在目录中
+
+
