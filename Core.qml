@@ -1,5 +1,5 @@
 import QtQuick 2.0
-import QtWebSockets 1.15
+//import QtWebSockets 1.15
 import QtQuick.Controls 1.4
 import "./QuickPromise/promise.js" as Q
 import com.cy.CoreBoot 1.0
